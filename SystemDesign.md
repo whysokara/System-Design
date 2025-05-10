@@ -11,13 +11,11 @@
 * understand the problem statement
 * break it down into components
     ex: Designing facebook : Auth, Notification, Feed, Gamification
-    Split into features
+* Split into features
     for ex Feed: Webserver, DB <= Generator, Aggregator
 * For each sub-component look into
     * DB and Caching
     * Scaling and Fault Tolerance
     * Async processing (Delegation)
     * Communication (repeat all those points for each component)
-    > split components into sub-components if required ***
-* 
-* 
+* split components into sub-components if required
