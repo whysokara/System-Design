@@ -19,3 +19,19 @@
     * Async processing (Delegation)
     * Communication (repeat all those points for each component)
 * split components into sub-components if required
+
+## Evaluate a System
+1. You have broken your system into components
+2. Every component has a clear set of responsibilities
+    * feed webserver - server feed over http
+    * feed generator - pulls data from multiple services and puts them in DB (candidate feed items)
+    * Feed Aggregator - filters data and creates a final consumable feed
+3. For each component, you've slight technical details figured out
+    * DB and Caching
+    * Scaling and Fault Tolerance
+    * Async processing (Delegation)
+    * Communication (repeat all those points for each component)
+4. Each component (in isolation)
+    * fault tolerant - plan for recovery in case of a failure
+    * scalable
+    * available - solve for complete outage
