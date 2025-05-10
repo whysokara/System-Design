@@ -6,7 +6,7 @@ Databases are most critical component of any system. They make or break a system
 1. Data Consistency
 2. Data Durability
 3. Data Integrity
-4. COnstraints
+4. Constraints
 5. Everything in one place
 
 The reason relational db are popular is because they give ACID guarantee
@@ -14,7 +14,7 @@ ACID - Atomicity, Consistency, Isolation, Durability
 
 1. Atomicity
 All statements within a transaction takes effect or none. (either all success or no success, there is no partial transaction/process)
-* if 100 ros are updated and after 50th rows system crashes then no record gets updated
+* if 100 rs are updated and after 50th rows system crashes then no record gets updated
 * publish a post and increase total posts count. 
 > Start transaction => Wrapped transaction => Commit
 
