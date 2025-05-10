@@ -20,8 +20,8 @@ All statements within a transaction takes effect or none. (either all success or
 
 2. Consistency
 data will never go incorrect, no matter what
-constraints, cascades, triggers
-Coscades: when parent gets deleted, child deltes automatically. User, posts option
+constraints, cascades, triggers  
+Coscades: when parent gets deleted, child deltes automatically. User, posts option  
 Ex: you won't be allow to delete a parent, if child exsists (foreign key checks)
 
 3. Durability
@@ -34,6 +34,12 @@ when multiple transaction are executing parallely, the isolation level determine
 > you pick relational databases for relations and acid
 
 
+##### SQL Server
+SQL Terminal
+> mysql -u root -p
 
+###### Other commands
+> show databases;
+> create database <db name>
 
 
