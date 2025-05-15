@@ -31,3 +31,9 @@ in asynchronous replication, instead of master pushing data to replica, replica 
 instead of one data node containing all the data, we will have 3 different nodes (shards)containing subsets of data (mutually exclusive) 
 * shards are idependent, no replicatioin between them
 * each shard cn have its own replica if needed
+
+## Sharding and Partitioning
+1. Sharding : method of distributing data across multiple machines/servers
+2. Partitioning : splitting a subset of data within the same instance
+
+> partitioning is about data, sharding is about databases
